@@ -3,6 +3,99 @@
 https://github.com/nadopro/kpc26dj
 
 
+
+$id = "admin"
+$pass = "abcd"
+
+select * from users where id='$id' and pass='$pass'
+
+id : aaa' or 2>1 limit 1, 1 -- 
+pass : bbbb
+select * from users where id='aaa' or 2>1 --  ' and pass='bbbb'
+
+
+X : Ex  , Windows XP, Windows Expert
+  XML : Extensible 
+X : Cross , XSS, Cross Site script
+X : AX, DX 
+
+netstat -an
+
+http://test.com/data/board/a.php
+
+
+IP 주소 : 4B, 32bit, 2^32 : 40억개 : IPv4
+IPv6 : 4B -> 8B -> 16B
+
+1.2.3.4
+
+0000 0000 ~ 1111 1111
+0000 0000 ~ 0111 1111 , 0 ~127
+A class
+30.*.*.* : 1600만개
+
+10.*.*.* : 사설IP
+127.* : loop back address
+
+a.php%20jpg
+B class
+1000 0000 ~ 1011 1111 : 128 ~ 191 
+
+  150.23.*.* : 65K
+  172.*
+
+1100 0000 1101 1111, 192 ~ 220
+
+  200.17.13-17.*
+
+  192.168.*.* : 사설아이피
+
+  172.30.1.58
+
+  172.30.1.0 ~ 172.30.1.255
+
+
+  성능
+
+  1+1 = 2
+
+  2 * 2 = 4
+
+  2 << 1 : 
+
+
+  1.2.3.4
+
+
+  0001 0010 0011 0100
+  1111 1111 1111 0000
+  0001 0010 0011 0000 : 1.2.3.0
+
+
+  0001 0010 0111 0111
+  1111 1111 1111 0000
+
+  IP RFC
+
+void copy(char *data){
+    char buf[100];
+    bzero(buf, sizeof(buf));
+    strcpy(buf, data);
+    printf("buf = %s\n", buf);
+}
+./test "Hello World dfdfdfd"
+int main(int argc, char **argv){
+  copy(argv[1]);
+
+  printf("end of main\n");
+  reutrn 0;
+}
+
+
+https://www.itu.int/en/Pages/default.aspx
+
+
+
 1. 환경 설치
 
 	download xampp
@@ -23,6 +116,8 @@ https://github.com/nadopro/kpc26dj
 		v : 동명의 데이터베이스 ..
 		v : Grant all priv ... 
 		v : 모두 체크
+
+
 
     테스트용 로그 데이터 삭제
 
