@@ -10,6 +10,8 @@ a. Visual Code
 b. XAMPP
 
     download xampp
+
+    ![image test korea](flags/KR.gif)
   
 ## 진행상황
 - [x] 홈페이지 구조
